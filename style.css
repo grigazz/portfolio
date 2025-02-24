@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Beckman;
+    src: url(fonts/beckman.otf);
+}
+@font-face {
+    font-family: Cinzel;
+    src: url(fonts/Cinzel.ttf);
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+        /* position: fixed;
+        width: 100%;
+        top: 0; */
+}
+header a{
+    text-decoration: none;
+    padding: 10px;
+}
+header li{
+    color: white;
+    padding: 15px;
+    font-family: Cinzel, Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+header li:hover{
+    font-weight: 600;
+    transition: 0.2s;
+}
+main{
+    background-color: white;
+    padding:10px 50px;
+}
+section article{
+    border: 3px rgb(60, 60, 60) solid;
+    width: 400px;
+    background-color:rgb(60, 60, 60) ;
+}   
+section article p{
+    color: white;
+    font-family: Cinzel,Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 100;
+}
+article #colo{
+    width: 400px;
+}
