@@ -35,6 +35,13 @@ header{
     background-color: black;
 }
 
+.burger {
+    color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none; 
+}
+
 header nav ul{
     display: flex;
     vertical-align: middle;
@@ -42,6 +49,7 @@ header nav ul{
 
 header #logo img{
     width: 70px;
+    margin: 20px 0 20px 20px;
     display: flex;
     justify-content: left;
 }
@@ -188,7 +196,7 @@ footer i{
 
 footer #foot{
     padding: 10px ;
-    text-align :center;
+    text-align: center;
 }
 footer h4{
     margin: 0;
@@ -199,5 +207,71 @@ footer h4{
 }
 
 @media screen and (max-width:768px){
-    
+
+    header nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .burger {
+    display: block; 
+    color: white;
+    padding: 10px;
+  }
+
+  nav{
+    display: none;
+    flex-direction: column;
+    background: #000000;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  /* Main */
+  #gael h1{
+    font-size: 3.5em;
+    text-align: center;
+  }
+
+  h2{
+    padding: 0;
+    font-size: 2em;
+  }
+   #gael{
+    margin-bottom: 100px;
+   }
+
+   section .test{
+    padding-top: 50px;
+   }
+
+   .ligne{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   }
+
+   #ex_projets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding-bottom: 150px;
+}
+ article .img{
+    max-height: 150px;
+    border-radius: 5px;
+ }
+
+footer h4{
+    font-size: 1em;
+}
+p{
+    padding: 0px 50px;
+}
 }
