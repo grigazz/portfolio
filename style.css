@@ -81,6 +81,11 @@ main{
     background-size: cover;
     
 }
+
+#port{
+    font-size: 2em;
+    padding-bottom: 150px;
+}
 section{
     padding:10px 50px;
 }
@@ -107,7 +112,7 @@ section article h3{
     font-weight: 400;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 200px 0px 100px 0px;
+    padding-top: 200px;
 }
 /* #skills article{
     width: 500px;
@@ -237,7 +242,10 @@ footer h4{
     font-size: 3.5em;
     text-align: center;
   }
-
+  #port{
+    font-size: 1.5em;
+    padding-top: 25px;
+  }
   h2{
     padding: 0;
     font-size: 2em;
