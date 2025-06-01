@@ -36,6 +36,9 @@
 <body>
     <header>
         <a href="#" id="logo"><img src="img/logo_header_grigazz.webp" alt="Mon logo"></a>
+        <div class="burger" id="burger">
+        &#9776; 
+        </div>
         <nav>
             <ul>
                 <li><a href="#">Accueil</a></li>
@@ -43,6 +46,7 @@
                 <li><a href="#foot">Contact</a></li>
             </ul>
         </nav>
+        
     </header>
     <main>
         <section id="gael">
@@ -117,5 +121,13 @@
             <h4>© 2025 Nicolas Gaël - Portfolio - Tous droits réservés</h4>
         </div>
     </footer>
+    <script>
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('nav');
+
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+</script>
 </body>
 </html>
