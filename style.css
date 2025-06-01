@@ -189,7 +189,7 @@ footer i{
 footer #foot{
     padding: 10px ;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 footer h4{
     margin: 0;
