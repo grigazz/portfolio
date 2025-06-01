@@ -35,7 +35,7 @@ header{
     background-color: black;
 }
 
-header nav{
+header nav ul{
     display: flex;
     vertical-align: middle;
 }
