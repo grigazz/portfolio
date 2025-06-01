@@ -188,8 +188,7 @@ footer i{
 
 footer #foot{
     padding: 10px ;
-    display: flex;
-    justify-content: center;
+    text-align :center;
 }
 footer h4{
     margin: 0;
