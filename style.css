@@ -1,13 +1,16 @@
 @font-face {
     font-family: Beckman;
+    font-display: optional;
     src: url(fonts/beckman.otf);
 }
 @font-face {
     font-family: Geist;
+    font-display: optional;
     src: url(fonts/Geist-Thin.ttf);
 }
 @font-face {
     font-family: Cinzel;
+    font-display: optional;
     src: url(fonts/Cinzel.ttf);
 }
 * {
