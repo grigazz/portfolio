@@ -207,6 +207,9 @@ footer #foot{
     text-align: center;
     color: white;
 }
+footer a{
+    color:white;
+}
 footer h4{
     margin: 0;
     font-family: Geist, Arial, Helvetica, sans-serif;
